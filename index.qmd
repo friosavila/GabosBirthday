@@ -1,0 +1,280 @@
+---
+title: "🎉 Happy 10th Birthday, Gabriel! 🎂"
+format: 
+  html:
+    css: styles.css
+    include-in-header:
+      text: |
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+---
+
+```{=html}
+<div class="image-gallery">
+  <div class="image-item">
+    <img src="images/birthday_cake.jpg" alt="Birthday Cake">
+    <p class="image-caption">A colorful birthday cake for Gabriel</p>
+  </div>
+  <div class="image-item">
+    <img src="images/party_decorations.jpg" alt="Party Decorations">
+    <p class="image-caption">Festive birthday party decorations</p>
+  </div>
+  <div class="image-item">
+    <img src="images/favorite_things.jpg" alt="Gabriel's Favorite Things">
+    <p class="image-caption">A collage of Gabriel's favorite things</p>
+  </div>
+</div>
+```
+
+## Birthday Wish
+
+Dear Gabriel,
+
+Wishing you a fantastic 10th birthday filled with joy, laughter, and unforgettable moments! May this special day mark the beginning of an amazing year ahead. Here's to double digits and new adventures!
+
+Happy Birthday!
+
+::: panel-tabset
+
+## Gabriel's Birthday Playlist
+
+```{=html}
+<div class="song-list">
+  <div class="song" data-song="happy_birthday.mp3">1. Happy Birthday to You - Traditional</div>
+  <div class="song" data-song="celebration.mp3">2. Celebration - Kool & The Gang</div>
+  <div class="song" data-song="cant_stop_the_feeling.mp3">3. Can't Stop the Feeling! - Justin Timberlake</div>
+  <div class="song" data-song="best_day_of_my_life.mp3">4. Best Day of My Life - American Authors</div>
+  <div class="song" data-song="birthday.mp3">5. Birthday - The Beatles</div>
+  <div class="song" data-song="good_time.mp3">6. Good Time - Owl City & Carly Rae Jepsen</div>
+  <div class="song" data-song="all_star.mp3">7. All Star - Smash Mouth</div>
+</div>
+
+<div id="now-playing"></div>
+```
+
+## Gabriel's Recipies!
+
+### **Recetario Boliviano: ¡15 Delicias Tradicionales!**
+
+**1. Salteñas**  
+**Historia:** Las salteñas son uno de los platos más emblemáticos de Bolivia. Son empanadas horneadas con un relleno jugoso de carne o pollo, papas, y huevo duro, y se suelen consumir como desayuno o a media mañana.  
+**Ingredientes:**  
+- 1 kg de harina  
+- 200 g de mantequilla  
+- 2 tazas de agua tibia  
+- 1 kg de carne de res o pollo  
+- 4 papas  
+- 2 cebollas  
+- Huevo duro, aceitunas, y pasas  
+**Instrucciones:**  
+1. Mezclar harina, agua, y mantequilla para formar la masa.  
+2. Cocer la carne con cebolla, papas, y condimentos.  
+3. Rellenar la masa con la carne y huevo duro.  
+4. Hornear a 200°C por 25 minutos.  
+**Dato Curioso:** Las salteñas fueron inventadas por una mujer salteña, de donde proviene su nombre.
+
+**2. Api con Pastel**  
+**Historia:** Este desayuno típico andino se consume principalmente en el Altiplano. El api es una bebida caliente a base de maíz morado, y el pastel es una masa frita rellena de queso.  
+**Ingredientes:**  
+- 1 kg de maíz morado  
+- 1 rama de canela  
+- 1 kg de queso  
+- 1 taza de harina  
+**Instrucciones:**  
+1. Cocer el maíz morado con canela para hacer el api.  
+2. Mezclar harina con queso para hacer la masa del pastel.  
+3. Freír la masa y servir con el api.  
+**Tip:** El api es ideal para combatir el frío en La Paz.
+
+**3. Pique Macho**  
+**Historia:** Plato popular que simboliza la fortaleza, se compone de carne, papas fritas y salchichas con salsas picantes.  
+**Ingredientes:**  
+- 500 g de carne de res  
+- 4 papas  
+- 2 salchichas  
+- 2 tomates  
+- Ají picante  
+**Instrucciones:**  
+1. Freír las papas y salchichas.  
+2. Cocer la carne y mezclar con tomates y ají.  
+3. Servir todo junto.  
+**Dato Curioso:** Su nombre viene del reto de comer este plato “macho” sin agua.
+
+**4. Sopa de Maní**  
+**Historia:** Esta sopa, preparada con maní molido, es uno de los platos más nutritivos de Bolivia. Es común en celebraciones.  
+**Ingredientes:**  
+- 200 g de maní  
+- 500 g de carne de res  
+- 3 papas  
+- 1 zanahoria  
+- Fideos  
+**Instrucciones:**  
+1. Cocer la carne y verduras.  
+2. Añadir maní molido y fideos a la sopa.  
+3. Cocinar por 10 minutos más.  
+**Tip:** Agrega papas fritas como topping para un toque especial.
+
+**5. Llajwa (Salsa Picante)**  
+**Historia:** Esta salsa picante acompaña casi todas las comidas bolivianas. Está hecha a base de locoto y tomate.  
+**Ingredientes:**  
+- 3 tomates  
+- 2 locotos  
+- Hojas de quirquiña  
+**Instrucciones:**  
+1. Moler los ingredientes juntos en batán o licuadora.  
+2. Servir como acompañamiento.  
+**Dato Curioso:** La llajwa varía de región en región; en el Altiplano es más picante que en el oriente.
+
+ 
+ 
+## Happy Birthday, Gabriel!
+
+
+**1. Español:**  
+- **"¡Feliz cumpleaños, Gabo! Que tengas un día lleno de alegrías y aventuras."**
+
+Here are 25 birthday greetings in some of the most widely spoken languages, starting with indigenous languages of Bolivia:
+
+### **1. Quechua**  
+- **"Sumaq wata yupaychay, Gabo! Kay punchawqa kusilla kasqayki."**  
+- Pronunciación: [su-mak wa-ta yu-pay-chai, kai pun-chau-ka ku-si-ya kas-kay-ki]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que este día te llene de alegría."
+
+### **2. Aymara**  
+- **"Kamisaraki urupana, Gabo! Jikisiñkamati arumäxiriwa."**  
+- Pronunciación: [ka-mee-sa-ra-ki u-ru-pa-na, ji-ki-siñ-ka-ma-ti a-ru-mä-xi-ri-wa]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que tengas un maravilloso día lleno de encuentros felices."
+
+### **3. Guaraní**  
+- **"Vy’apavẽ ára reñói, Gabo! Toikovére ne ñemity ha vy’a."**  
+- Pronunciación: [vya-pa-ve a-ra re-ñói, to-iko-vé-re ne ñe-mi-ty ha vy-a]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que tu vida esté siempre llena de alegría y éxito."
+
+Here are the complete pronunciations for English and French:
+
+### **4. Inglés**  
+- **"Happy Birthday, Gabo! May your day be full of joy and adventure!"**  
+- Pronunciación: [há-pi bérth-dei, Gabo! mei yor dei bi ful ov joi and ad-ven-chur]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que tu día esté lleno de alegría y aventuras."
+
+
+### **5. Mandarín (Chino)**  
+- **"加博，生日快乐！愿你的每一天都充满惊喜与幸福。"**  
+- Pronunciación: [Jiā bō, shēng rì kuài lè! Yuàn nǐ de měi yī tiān dōu chōng mǎn jīng xǐ yǔ xìng fú.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que todos tus días estén llenos de sorpresas y felicidad."
+
+### **6. Hindi**  
+- **"जन्मदिन मुबारक हो, गाबो! तुम्हारा हर दिन खुशियों और सफलताओं से भरा हो।"**  
+- Pronunciación: [jan-ma-din mu-ba-rak ho, Ga-bo! Tum-ha-ra har din khush-iyo aur saf-la-tao se bhara ho.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **7. Árabe**  
+- **"عيد ميلاد سعيد يا غابو! أتمنى لك حياة مليئة بالفرح والنجاح."**  
+- Pronunciación: [eid mi-lad sa-id ya Gabo! Atamanna laka hayatan maliatan bialfarh walnajaah]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Te deseo una vida llena de alegría y éxito."
+
+
+### **8. Francés**  
+- **"Joyeux anniversaire, Gabo! Que chaque jour t'apporte bonheur et succès."**  
+- Pronunciación: [zhwa-yuh za-ni-ver-sèr, Gabo! kuh shak zhoor ta-port boh-neur e suk-sè]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día te traiga felicidad y éxito."
+
+### **9. Ruso**  
+- **"С Днём Рождения, Габо! Пусть каждый день будет полон радости и успехов."**  
+- Pronunciación: [s dnyom razh-den-iya, Gabo! Pust kazh-dyi den' bu-det po-lon ra-dos-ti i us-pe-kov.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de alegría y éxito."
+
+### **10. Portugués**  
+- **"Feliz aniversário, Gabo! Que todos os teus dias sejam repletos de felicidade e sucesso."**  
+- Pronunciación: [fe-lis a-ni-ver-sa-ri-u]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que todos tus días estén llenos de felicidad y éxito."
+
+### **11. Bengalí**  
+- **"শুভ জন্মদিন, গাবো! তোমার প্রতিটি দিন আনন্দ এবং সাফল্যে পরিপূর্ণ হোক।"**  
+- Pronunciación: [shubho jônmo-din, Gabo! Tomar pro-titi din an-on-do ebong saf-lô-ye pori-pûrnô hok.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **12. Japonés**  
+- **"お誕生日おめでとう, ガボ! 毎日が幸せと成功に満ちていますように。"**  
+- Pronunciación: [o-tan-jō-bi o-me-de-tō, Gabo! Mai-ni-chi ga shiawase to seikō ni michiteimasu yō ni.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **13. Coreano**  
+- **"생일 축하합니다, 가보! 매일이 기쁨과 성공으로 가득 차길 바랍니다."**  
+- Pronunciación: [saeng-il chu-ka ham-ni-da, Ga-bo! Mae-il-i gi-ppeum-gwa seong-gong-eu-ro ga-deuk cha-gil ba-ram-ni-da.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de alegría y éxito."
+
+### **14. Alemán**  
+- **"Alles Gute zum Geburtstag, Gabo! Möge jeder Tag dir Freude und Erfolg bringen."**  
+- Pronunciación: [al-les gu-te tsum ge-burts-tag, Gabo! Mö-ge ye-der tag deer froh-i-de unt er-folg bring-en.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día te traiga alegría y éxito."
+
+### **15. Italiano**  
+- **"Buon compleanno, Gabo! Che ogni giorno sia pieno di felicità e successi."**  
+- Pronunciación: [bwon com-ple-an-no, Gabo! Ke o-nyee gior-no si-a pye-no di fe-li-chi-ta e su-ches-si.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **16. Turco**  
+- **"Doğum günün kutlu olsun, Gabo! Her günün mutluluk ve başarı ile dolu olsun."**  
+- Pronunciación: [do-um gü-nün kut-lu ol-sun, Gabo! Her gü-nün mut-lu-luk ve ba-sha-ri i-le do-lu ol-sun.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **17. Vietnamita**  
+- **"Chúc mừng sinh nhật, Gabo! Mong rằng mỗi ngày của bạn tràn đầy hạnh phúc và thành công."**  
+- Pronunciación: [chook moong sinh nyut, Gabo! Mong rang moi ngay cua ban tran day hanh phuc va thanh cong.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **18. Sueco**  
+- **"Grattis på födelsedagen, Gabo! Må varje dag fyllas med glädje och framgång."**  
+- Pronunciación: [gra-tis po fé-del-se-da-gen, Gabo! Mo va-rje dag fi-las med glæ-di-e ok fram-gång.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de alegría y éxito."
+
+### **19. Tailandés**  
+- **"สุขสันต์วันเกิด, กาโบ! ขอให้ทุกวันเต็มไปด้วยความสุขและความสำเร็จ."**  
+- Pronunciación: [sùk-sǎn wan-gòed, Gabo! Kho hǎi thúk wan dtem bpai duai khwǎm sùk læ khwǎm sǎmret.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+### **20. Tagalo (Filipinas)**  
+- **"Maligayang kaarawan, Gabo! Nawa’y puno ng saya at tagumpay ang bawat araw mo."**  
+- Pronunciación: [ma-li-ga-yang ka-a-ra-wan, Gabo! Na-wa'y pu-no ng sa-ya at ta-gum-pay ang ba-wat a-raw mo.]  
+- Traducción: "¡Feliz cumpleaños, Gabo! Que cada día esté lleno de felicidad y éxito."
+
+
+:::
+
+```{=html}
+<div class="image-gallery">
+  <div class="image-item">
+    <img src="images/birthday_activities.jpg" alt="Birthday Activities">
+    <p class="image-caption">Kids enjoying fun birthday party activities</p>
+  </div>
+  <div class="image-item">
+    <img src="images/birthday_presents.jpg" alt="Birthday Presents">
+    <p class="image-caption">A pile of colorfully wrapped birthday presents</p>
+  </div>
+</div>
+```
+
+```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  const nowPlaying = document.getElementById('now-playing');
+  const songs = document.querySelectorAll('.song');
+  let sound;
+
+  songs.forEach(song => {
+    song.addEventListener('click', () => {
+      const songFile = song.getAttribute('data-song');
+      if (sound) {
+        sound.stop();
+      }
+      sound = new Howl({
+        src: [`audio/${songFile}`],
+        html5: true
+      });
+      sound.play();
+      nowPlaying.textContent = `Now playing: ${song.textContent}`;
+    });
+  });
+});
+</script>
+```
