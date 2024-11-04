@@ -1,0 +1,206 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist</title>
+    <style>
+        /* Styling for player */
+        .container { margin: 20px; }
+        .player { display: flex; align-items: center; justify-content: space-between; }
+        .large-toggle-btn, .controls-box { cursor: pointer; }
+        .play-list-row { display: flex; align-items: center; margin-bottom: 10px; cursor: pointer; }
+        .progress { background-color: #ccc; width: 100%; height: 5px; position: relative; }
+        .progress-indicator { background-color: #f00; height: 100%; width: 0%; position: absolute; top: 0; left: 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <audio id="audio" preload="none" tabindex="0">
+        <source src="audio/Happy-Birthday-Anime1.mp3" data-track-number="1"/>
+        <source src="audio/Happy-Birthday-Anime2.mp3" data-track-number="2"/>
+        <source src="audio/Happy-Birthday-Brshop.mp3" data-track-number="3"/>
+        <source src="audio/Happy-Birthday-Epic.mp3" data-track-number="4"/>
+        <source src="audio/Happy-Birthday-Epic2.mp3" data-track-number="5"/>
+        <source src="audio/Happy-Birthday-JPOP.mp3" data-track-number="6"/>
+        <source src="audio/Happy-Birthday-pop.mp3" data-track-number="7"/>
+        <source src="audio/Happy-Birthday-rap.mp3" data-track-number="8"/>
+        <source src="audio/Happy-Birthday-rock.mp3" data-track-number="9"/>
+        <source src="audio/Happy-Birthday-Tango.mp3" data-track-number="10"/>
+        Your browser does not support HTML5 audio.
+    </audio>
+
+    <div class="player">
+        <div class="large-toggle-btn">
+            <i class="large-play-btn">▶️</i>
+        </div>
+
+        <div class="info-box">
+            <div class="track-title-text">Select a song</div>
+            <div class="audio-time">
+                <span class="current-time">00:00</span> /
+                <span class="duration">00:00</span>
+            </div>
+        </div>
+
+        <div class="controls-box">
+            <i class="previous-track-btn">⏮️</i>
+            <i class="next-track-btn">⏭️</i>
+        </div>
+    </div>
+
+    <div class="progress-box">
+        <div class="progress">
+            <div class="progress-indicator"></div>
+        </div>
+    </div>
+
+    <div class="play-list">
+        <div class="play-list-row" data-track-row="1">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">1.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="1">Anime Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="2">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">2.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="2">Anime2 Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="3">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">3.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="3">Barber Shop Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="4">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">4.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="4">Epic Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="5">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">5.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="5">Epic2 Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="6">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">6.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="6">JPOP Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="7">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">7.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="7">POP Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="8">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">8.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="8">Rap Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="9">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">9.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="9">Heavy Rock Happy Birthday</a>
+            </div>
+        </div>
+        <div class="play-list-row" data-track-row="10">
+            <div class="small-toggle-btn">▶️</div>
+            <div class="track-number">10.</div>
+            <div class="track-title">
+                <a class="playlist-track" href="#" data-play-track="10">Tango Happy Birthday</a>
+            </div>
+        </div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const audio = document.getElementById('audio');
+        const trackTitle = document.querySelector('.track-title-text');
+        const currentTimeDisplay = document.querySelector('.current-time');
+        const durationDisplay = document.querySelector('.duration');
+        const progressIndicator = document.querySelector('.progress-indicator');
+        const playBtn = document.querySelector('.large-play-btn');
+        const previousBtn = document.querySelector('.previous-track-btn');
+        const nextBtn = document.querySelector('.next-track-btn');
+        let isPlaying = false;
+        let currentTrackIndex = 0;
+
+        const tracks = Array.from(audio.querySelectorAll('source'));
+
+        const playTrack = (index) => {
+            currentTrackIndex = index;
+            const selectedTrack = tracks[index];
+            audio.src = selectedTrack.src;
+            audio.play();
+            trackTitle.textContent = selectedTrack.getAttribute('data-play-track');
+            playBtn.textContent = '⏸️';
+            isPlaying = true;
+        };
+
+        const togglePlayPause = () => {
+            if (isPlaying) {
+                audio.pause();
+                playBtn.textContent = '▶️';
+            } else {
+                audio.play();
+                playBtn.textContent = '⏸️';
+            }
+            isPlaying = !isPlaying;
+        };
+
+        // Play selected track from the playlist
+        document.querySelectorAll('.playlist-track').forEach((item, index) => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault();
+                playTrack(index);
+            });
+        });
+
+        // Play/Pause functionality
+        playBtn.addEventListener('click', togglePlayPause);
+
+        // Update current time and duration display
+        audio.addEventListener('timeupdate', () => {
+            const currentTime = audio.currentTime;
+            const duration = audio.duration;
+            currentTimeDisplay.textContent = formatTime(currentTime);
+            durationDisplay.textContent = formatTime(duration);
+            progressIndicator.style.width = `${(currentTime / duration) * 100}%`;
+        });
+
+        // Format time as mm:ss
+        const formatTime = (seconds) => {
+            const minutes = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+        };
+
+        // Previous and Next track buttons
+        previousBtn.addEventListener('click', () => {
+            if (currentTrackIndex > 0) {
+                playTrack(currentTrackIndex - 1);
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentTrackIndex < tracks.length - 1) {
+                playTrack(currentTrackIndex + 1);
+            }
+        });
+    });
+</script>
+</body>
+</html>

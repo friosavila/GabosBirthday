@@ -33,26 +33,16 @@ Wishing you a fantastic 10th birthday filled with joy, laughter, and unforgettab
 
 Happy Birthday!
 
-::: panel-tabset
-
 ## Gabriel's Birthday Playlist
 
 ```{=html}
-<div class="song-list">
-  <div class="song" data-song="Happy-Birthday-Anime1.mp3">1. Anime Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-Anime2.mp3">2. Anime2 Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-Brshop.mp3">3. Barber Shop Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-Epic.mp3">4. Epic Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-Epic2.mp3">5. Epic2 Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-JPOP.mp3">6. JPOP Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-pop.mp3">7. POP Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-rap.mp3">8. Rap Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-rock.mp3">9. Heavy Rock Happy Birthday</div>
-  <div class="song" data-song="Happy-Birthday-Tango.mp3">10. Tango Happy Birthday</div>
-</div>
 
-<div id="now-playing"></div>
+{{< include player.html >}}
+
 ```
+
+::: panel-tabset
+
 
 ## Gabriel's Recipies!
 
@@ -128,9 +118,7 @@ Happy Birthday!
 **Dato Curioso:** La llajwa varía de región en región; en el Altiplano es más picante que en el oriente.
 
  
- 
 ## Happy Birthday, Gabriel!
-
 
 ### **1. Español:**  
 - **"¡Feliz cumpleaños, Gabo! Que tengas un día lleno de alegrías y aventuras."**
@@ -243,8 +231,17 @@ Here are the complete pronunciations for English and French:
 
 ```{=html}
 <body>
+    <h4>Ver English</h4>
     <audio controls>
         <source src="audio/LIT_adv2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+
+<body>
+    <h4>Ver Spanish</h4>
+    <audio controls>
+        <source src="audio/LIT_adv3.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </body>
@@ -280,7 +277,13 @@ The cake glowed with an otherworldly light, ten candles flickering with magical 
 
 In Gabriel's mind, he saw one last game message: "You have reached a Save Point. Progress Saved." And with that, his epic 10th birthday adventure came to an end, leaving him excited for all the levels yet to come.
 
+
+
 :::
+
+ 
+
+ 
 
 ```{=html}
 <div class="image-gallery">
